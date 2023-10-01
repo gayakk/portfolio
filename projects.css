@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.current{
+    color: white;
+}
+.navbar{
+    background-color: #5f5d5de7;
+    width: 160px;
+    height: 100vh;
+}
+.navbar nav{
+    padding: 20%;
+}
+.navbar nav li{
+    list-style:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar nav li:hover{
+    transform: scale(1.1);
+}
+.Tags{
+    color: black;
+}
+.Tags:hover{
+    color: lightgray;
+    text-shadow: 50%;
+}
+.container{
+    display: flex;
+}
+.main{
+    border:solid grey 2px;
+    background-color: rgb(158, 151, 151);
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-top: 4%;
+}
+.info{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.divInfo{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+.image{
+    margin-left: 50vw;
+}
+.links{
+    margin-top: 5px;
+    padding: 4px;
+    margin-left: 0vw;
+    margin-top:15vh;
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links i{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.links i:hover{
+    transform: scale(1.5);
+    color: white;
+}
+.aboutMe{
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: dotted black 3px;
+}
+.project :first-child{
+    margin-top: 15px;
+}
+.project{
+    margin-top: 15px;
+    border-bottom:solid black 3px;
+    color: black;
+    font-family: auto;
+    font-weight: normal;
+}
+.project :hover{
+    transform: scale(1.1);
+    color: blue;
+}
+.divInfo p{
+    font-size:medium;
+    margin-left: 8%;
+    margin-top: 5px;
+    font-family: auto;
+}       
+.current div{
+    position: relative;
+    margin-top: 3px;
+}
+.projects h1{
+    margin-left: 42%;
+    font-family: cursive;
+}
+.projects ul{
+    margin-left: 20px;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.projects li{
+    margin-top: 10px;
+    border-bottom: dotted black 2px ;
+    display: flex;
+    justify-content: space-between;
+}
+.projects p{
+    font-size: small;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-top: 5px;
+}   
+.project-image{
+    margin-right: 10px;
+    height: 10%;
+    width: 10%;
+}
+.pic img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+    .hello , .name ,.skills{
+        font-size: larger;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .more{
+        font-size: small;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .main{
+        padding: 10px;
+        padding: 0%;
+        width: 90vw;
+        height: 80vh;
+        margin-top: 20%;
+    }
+    .navbar {
+        width: 100%; 
+        height: 5vh; 
+        position: fixed; 
+        top: 0;
+        margin-bottom: 20px;
+        background-color: #5f5d5de7; 
+    }
+
+    .navbar nav {
+        padding: 0%;
+        justify-content: center; 
+        align-items: center;
+        height: 100%; 
+    }
+    .navbar nav li {
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .navbar ul{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .cbox{
+        padding: 0%;
+    }
+}

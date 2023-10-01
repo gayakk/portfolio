@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.current{
+    color: white;
+}
+.navbar{
+    background-color: #5f5d5de7;
+    width: 160px;
+    height: 100vh;
+}
+.navbar nav{
+    padding: 20%;
+}
+.navbar nav li{
+    list-style:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar nav li:hover{
+    transform: scale(1.1);
+}
+.Tags{
+    color: black;
+}
+.Tags:hover{
+    color: lightgray;
+    text-shadow: 50%;
+}
+.container{
+    display: flex;
+}
+.main{
+    border:solid grey 2px;
+    background-color: rgb(158, 151, 151);
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.divInfo{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutMe{
+    margin: auto;
+    margin-top: 10px;
+}
+.moreMe{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: cursive;
+    font-size: 12px;
+}
+.heading{
+    margin-left: 3vw;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.list{
+    margin-left: 9vw;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: disc;
+}
+.list li{
+    padding: 2px;
+}
+.list p{
+    margin-top:3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.links{
+    margin-top: 5px;
+    padding: 4px;
+    margin-left: 0vw;
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links i{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.links i:hover{
+    transform: scale(1.5);
+    color: white;
+}
+.box{
+    border-bottom: dotted black 2px;
+}
+@media screen and (max-width: 600px) {
+    .hello , .name ,.skills{
+        font-size: larger;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .more{
+        font-size: small;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .main{
+        padding: 0%;
+        width: 90vw;
+        height: 80vh;
+    }
+    .navbar {
+        width: 100%; 
+        height: 5vh; 
+        position: fixed; 
+        top: 0;
+        background-color: #5f5d5de7; 
+    }
+
+    .navbar nav {
+        padding: 0%;
+        justify-content: center; 
+        align-items: center;
+        height: 100%; 
+    }
+    .navbar nav li {
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .navbar ul{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

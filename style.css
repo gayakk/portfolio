@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.current{
+    color: white;
+}
+.navbar{
+    background-color: #5f5d5de7;
+    width: 160px;
+    height: 100vh;
+}
+.navbar nav{
+    padding: 20%;
+}
+.navbar nav li{
+    list-style:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar nav li:hover{
+    transform: scale(1.1);
+}
+.Tags{
+    color: black;
+}
+.Tags:hover{
+    color: lightgray;
+    text-shadow: 50%;
+}
+.container{
+    display: flex;
+}
+.main{
+    border:solid grey 2px;
+    background-color: rgb(158, 151, 151);
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.info{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.divInfo{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hello{
+    font-size: 80px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+.skills{
+    font-size: 60px;
+}
+.button button{
+    /* background-color: yellow; */
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button button:hover{
+    transform: scale(1.2);
+    background-color:#696969;
+    color: white;
+}
+.more{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+.image{
+    margin-left: 50vw;
+}
+.links{
+    margin-top: 5px;
+    padding: 4px;
+    margin-left: 0vw;
+    margin-top:5vh;
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links i{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.links i:hover{
+    transform: scale(1.5);
+    color: white;
+}
+/* @media only screen and (max-width: 600px) {
+    .hello , .name ,.skills{
+        font-size: larger;
+    }
+    .more{
+        font-size: small;
+    }
+    .navbar{
+        height: 10vw;
+        width: 200%;
+    }
+    .navbar nav li{
+        list-style:none;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .current{
+        color: black;
+    }
+    .main{
+        margin-top: 10vh;
+        width: 100vw;
+    }
+
+  } */
+  /* Your existing CSS styles */
+
+/* Add the media query for max width of 600px */
+@media screen and (max-width: 600px) {
+    .hello , .name ,.skills{
+        font-size: larger;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .more{
+        font-size: small;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .main{
+        padding: 0%;
+        width: 90vw;
+        height: 40vh;
+    }
+    .navbar {
+        width: 100%; 
+        height: 5vh; 
+        position: fixed; 
+        top: 0;
+        background-color: #5f5d5de7; 
+    }
+
+    .navbar nav {
+        padding: 0%;
+        justify-content: center; 
+        align-items: center;
+        height: 100%; 
+    }
+    .navbar nav li {
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .navbar ul{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

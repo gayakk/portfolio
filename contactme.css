@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.current{
+    color: white;
+}
+.navbar{
+    background-color: #5f5d5de7;
+    width: 160px;
+    height: 100vh;
+}
+.navbar nav{
+    padding: 20%;
+}
+.navbar nav li{
+    list-style:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar nav li:hover{
+    transform: scale(1.1);
+}
+.Tags{
+    color: black;
+}
+.Tags:hover{
+    color: lightgray;
+}
+.container{
+    display: flex;
+}
+.main{
+    border:solid grey 2px;
+    background-color: rgb(158, 151, 151);
+    width: 60%;
+    height: 65%;
+    margin: auto;
+    margin-top: 100px;
+}
+.form h1{
+    margin-left: 20vw;
+}
+.frm{
+    display: flex;
+}
+.namea{
+    padding: 10px;
+    margin-left: 130px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+.emaila{
+    padding: 10px;
+    margin-left: 130px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+.phonea{
+    padding: 10px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+.name{
+    font-size: 20px
+}
+.email{
+    font-size: 20px
+}
+.phone{
+    font-size: 20px
+}
+.form{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form button{
+    width: 10rem;
+    font-size: 15px;
+    margin-left: 130px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.form button:hover{
+    color: white;
+    background-color: #696969;
+    transform: scale(1.2);
+}
+.reset{
+    font-size: 15px;
+    width: 10rem;
+    margin-left: 30px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.reset:hover{
+        color: white;
+        background-color: #696969;
+        transform: scale(1.2);
+}
+.want{
+    margin-left: 150px;
+}
+.cbox {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.inp{
+    font-size: 15px;
+    padding: 10px;
+    width: 20vw;
+    margin-top: 10px;
+}
+.links{
+    margin-top: 5px;
+    padding: 4px;
+    margin-left: 0vw;
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links i{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.links i:hover{
+    transform: scale(1.5);
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .hello , .name ,.skills{
+        font-size: larger;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .more{
+        font-size: small;
+        margin-left: 0%;
+        padding: 0%;
+    }
+    .main{
+        padding: 0%;
+        width: 90vw;
+        height: 80vh;
+    }
+    .reset{
+        margin-top: 10px;
+    }
+    .navbar {
+        width: 100%; 
+        height: 5vh; 
+        position: fixed; 
+        top: 0;
+        background-color: #5f5d5de7; 
+    }
+
+    .navbar nav {
+        padding: 0%;
+        justify-content: center; 
+        align-items: center;
+        height: 100%; 
+    }
+    .navbar nav li {
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .navbar ul{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .namea{
+        margin-left: 0%;
+    }
+    .emaila{
+        margin-left: 0%;
+    }
+    .phonea{
+        margin-left: 0%;
+    }
+    .reset{
+        margin-left: 0%;
+    }
+    .inp{
+        width: 80vw;
+        height: 50px;
+        font-size: large;
+    }
+    .btn{
+        margin-left: 0%;
+    }
+    .want{
+        margin-left: 4px;
+    }
+    .form button{
+        margin-left: 0%;
+    }  
+    .main{
+        margin-top: 25%;
+    } 
+}
